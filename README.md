@@ -102,5 +102,4 @@ Berdasarkan analisis profil demografi pelanggan, didapat kesimpulan sebagai beri
 
 Dilihat dari profil demografinya, pelanggan Segmen 1 memiliki profil yang mendukung sebagai segmen pelanggan yang disebut potensial. Pelanggan pada segmen ini terdiri dari individu dengan rata-rata usia yang relatif lebih lebih tua, tingkat pendidikan yang lebih tinggi, tidak memiliki tanggungan anak, dan mayoritas pendapatan berada di kelas menengah hingga menengah ke atas.
 
-    
-    bikin dummy profit dan biaya campaign
+
