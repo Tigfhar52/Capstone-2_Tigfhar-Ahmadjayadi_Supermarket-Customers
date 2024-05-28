@@ -67,39 +67,3 @@ Dataset berisikan profil pelanggan termasuk demografi, riwayat pembelian, dan ri
 | NumCatalogPurchases | Jumlah pembelian menggunakan katalog                 |
 | NumStorePurchases   | Jumlah pembelian langsung di toko                   |
 | NumWebVisitsMonth   | Jumlah kunjungan ke website perusahaan dalam bulan terakhir |
-
-## KARAKTERISTIK PELANGGAN POTENSIAL
-
-**SEGMENTASI PELANGGAN POTENSIAL UNTUK DIJADIKAN TARGET DALAM MENINGKATKAN PENJUALAN** <br>
-
-   Berdasarkan analisis segmentasi pelanggan dengan metode RFM di supermarket, terdapat tiga segmen pelanggan, diantaranya:
-
-1. `Segmen 1` <br>
-Terdiri dari pelanggan dengan nilai monetary yang tinggi, menunjukkan kecenderungan mereka untuk melakukan transaksi dengan nominal besar. <br>
-
-2. `Segmen 2` <br>
-Teridiri dari pelanggan dengan nilai frequency dan/atau recency yang tinggi, yaitu pelanggan yang sering melakukan transaksi dan/atau baru saja melakukan transaksi.<br>
-
-3. `Segmen 3` <br>
-Teridiri dari pelanggan dengan nilai recency, frequency, dan monetary yang rendah, menunjukkan bahwa mereka jarang bertransaksi, sudah lama tidak melakukan transaksi, dan nilai transaksinya kecil. <br>
-
-Dengan demikian, dapat ditentukan bahwa `Segmen 1 merupakan segmen pelanggan potensial`. Direkomendasikan bahwa segmen ini dijadikan prioritas utama atau target untuk meningkatkan penjualan. (diperpanjang)
-
-**PROFIL PELANGGAN POTENSIAL UNTUK DIJADIKAN TARGET DALAM MENINGKATKAN PENJUALAN**
-
-Terdapat 4 profil demografi yang tepat untuk dihighlight dalam melihat profil dari segmen pelanggan potensial, yaitu usia, tingkat pendidikan, jumlah anak, dan jumlah pendapatan. Profil demografi tersebut memiliki tren atau kecenderungannya masing-masing dalam mencirikan setiap segmen, terutama segmen pelanggan potensial, sehingga dapat dibedakan dengan jelas, profil demografi dari segmen pelanggan potensial. 
-
-Berdasarkan analisis profil demografi pelanggan, didapat kesimpulan sebagai berikut:
-
-| Profil Demografi       |           Segmen 1                                                                                                  |           Segmen 2                                                                                          |           Segmen 3                                                                                       |
-|:-------------------:|:----------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
-| Kelompok Usia       | Berumur lebih tua (Proporsi pelanggan berusia 50-65 tahun relatif tinggi)                                                                  | Berumur lebih muda (Proporsi pelanggan berusia 50-65 tahun relatif rendah)                                                                             | Berumur lebih muda (Proporsi pelanggan berusia 50-65 tahun relatif rendah)                                                                          |
-| Tingkat Pendidikan  | Proporsi tingkat pendidikan doktoral menyerupai pendidikan magister, dan hampir tidak ada yang tamatan SMA | Proporsi tingkat pendidikan doktoral rendah dan masih terdapat sebagian kecil yang tamatan SMA     | Proporsi tingkat pendidikan doktoral rendah dan masih terdapat sebagian kecil yang tamatan SMA |
-| Jumlah Anak         | 50% pelanggan tidak memiliki anak                                                                    | 50% pelanggan memiliki seorang anak                                                           | 50% pelanggan memiliki seorang anak                                                       |
-| Pendapatan          | Dominasi kelas menengah, dan terdapat proporsi yang cukup signifikan dari pelanggan kelas menengah atas   | Dominasi kelas menengah ke bawah, hampir tidak ada kelas menengah ke atas                         | Dominasi kelas menengah ke bawah, tidak ada dari kelas menengah ke atas                        |
-
-
-
-Dilihat dari profil demografinya, pelanggan Segmen 1 memiliki profil yang mendukung sebagai segmen pelanggan yang disebut potensial. Pelanggan pada segmen ini terdiri dari individu dengan rata-rata usia yang relatif lebih lebih tua, tingkat pendidikan yang lebih tinggi, tidak memiliki tanggungan anak, dan mayoritas pendapatan berada di kelas menengah hingga menengah ke atas.
-
-
