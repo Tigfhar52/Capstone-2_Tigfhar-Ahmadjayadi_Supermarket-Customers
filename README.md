@@ -1,69 +1,78 @@
-# 1.1. BACKGROUND CONTEXT
+# Supermarket Customer Data Analysis 📊🛒
 
-Sebuah supermarket melihat adanya peluang untuk meningkatkan pendapatan dari bisnis mereka dalam era digitalisasi. Dengan memanfaatkan data pelanggan yang telah dikumpulkan selama 2 tahun terakhir, supermarket mencoba untuk menganalisa pola perilaku pelanggan dengan harapan dapat menemukan cara untuk meningkatkan pendapatan mereka di tahun-tahun berikutnya.
+## 1.1. BACKGROUND CONTEXT
 
-## 1.2. STAKEHOLDER
+A supermarket sees an opportunity to increase its revenue in the digital era. By utilizing customer data collected over the past two years, the supermarket aims to analyze customer behavior patterns in hopes of finding ways to boost revenue in the coming years.
 
-Analisa yang dilakukan ditujukan kepada seluruh pihak yang terlibat dalam aktivitas bisnis supermarket, di mana setiap pihak diharapkan dapat mengambil informasi dan manfaat dari hasil analisa ini. Adapun secara spesifik analisa ini dikhususkan untuk tim **Business Development** dari supermarket.
+---
 
-## 1.3. PROBLEM STATEMENT
+## 1.2. STAKEHOLDER 👥
 
-**Pertanyaan bisnis utama:** <br>
+The analysis is directed at all parties involved in the supermarket's business activities, with each party expected to benefit from the insights gained. Specifically, this analysis is dedicated to the **Business Development Team** of the supermarket.
 
-`1. Bagaimana Supermarket meningkatkan pendapatannya berdasarkan pola perilaku pelanggan selama 2 tahun terkahir?`
+---
 
-**Pertanyaan riset berdasarkan data:**<br>
+## 1.3. PROBLEM STATEMENT ❓
 
-`1. Bagaimana karakteristik pelanggan potensial Supermarket?`<br>
-    1.1 Bagaimana segmentasi pelanggan potensial untuk dijadikan target dalam meningkatkan penjualan?<br>
-    1.2 Bagaimana profil pelanggan potensial untuk dijadikan target dalam meningkatkan penjualan?<br>
+**Key Business Question:**<br>
+`1. How can the supermarket increase its revenue based on customer behavior patterns over the past two years?`
 
-`2. Bagaimana Supermarket mengoptimalkan penjualan pada segmen pelanggan potensial?`<br>
-    2.1 Apa produk yang tepat untuk diatawarkan pada segmen pelanggan potensial?<br>
-    2.2 Apa media yang cocok untuk melayani segmen pelanggan potensial?<br>
-    2.3 Bagaimana strategi marketing yang tepat untuk segmen pelanggan potensial?<br>
+**Data-driven Research Questions:**<br>
+`1. What are the characteristics of potential customers for the supermarket?`<br>
+   - 1.1 How can we segment potential customers to target for increased sales?<br>
+   - 1.2 What are the profiles of potential customers to target for increased sales?<br>
 
-    ## 1.4. GOALS
+`2. How can the supermarket optimize sales for potential customer segments?`<br>
+   - 2.1 What are the right products to offer to potential customer segments?<br>
+   - 2.2 What are the suitable media to engage potential customer segments?<br>
+   - 2.3 What is the most effective marketing strategy for potential customer segments?<br>
 
-Tujuan utama dari analisa ini yaitu untuk meningkatkan pendapatan Supermarket berdasarkan pola perilaku pelanggan selama 2 tahun terakhir dengan memahami karakteristik dari pelanggan potensial guna menaikkan tingkat konversi segmen pelanggan potensial
+---
 
-## 1.5. DATA UNDERSTANDING
+## 1.4. GOALS 🎯
 
-`Sumber Data`
+The primary goal of this analysis is to increase the supermarket's revenue based on customer behavior patterns over the past two years. By understanding the characteristics of potential customers, the supermarket aims to improve the conversion rate of these segments.
 
-Dataset yang digunakan berjudul "Supermarket Customer" dengan format .csv (Comma-Seperated Values). Diberikan oleh Tim Akademik Purwadhika Data Science Class yang dapat diakses melalui link:
+---
 
-https://drive.google.com/drive/folders/1WodnBbuYTvsF0-6HTuQABQ0KCS31lqbK
+## 1.5. DATA UNDERSTANDING 📂
 
-Dataset berisikan profil pelanggan termasuk demografi, riwayat pembelian, dan riwayat pemasaran. Terdiri dari 29 kolom yang dibagi ke dalam 4 kategori dengan detail sebagai berikut:
+**Data Source**  
+The dataset used is titled "Supermarket Customer" in .csv (Comma-Separated Values) format. It is provided by the Purwadhika Data Science Class Academic Team and can be accessed through the following link:  
+[Dataset Link](https://drive.google.com/drive/folders/1WodnBbuYTvsF0-6HTuQABQ0KCS31lqbK)
 
+The dataset contains customer profiles, including demographics, purchase history, and marketing history. It consists of 29 columns categorized into 4 categories, with details as follows:
 
-| Kolom               | Deskripsi                                             |
-|---------------------|-------------------------------------------------------|
-| ID                  | Nomor ID unik pelanggan                           |
-| Year_Birth          | Tahun kelahiran pelanggan                             |
-| Education           | Tingkat pendidikan pelanggan                          |
-| Marital_Status      | Status pernikahan pelanggan                           |
-| Income              | Pendapatan tahunan rumah tangga pelanggan            |
-| Kidhome             | Jumlah anak di rumah tangga pelanggan                |
-| Teenhome            | Jumlah remaja di rumah tangga pelanggan              |
-| Dt_Customer         | Tanggal pendaftaran pelanggan dengan perusahaan       |
-| Recency             | Jumlah hari sejak pembelian terakhir pelanggan       |
-| Complain            | Status aktivitas komplain pelanggan dalam 2 tahun terakhir (Y/N) |
-| MntWines            | Jumlah pembelian anggur pelanggan dalam 2 tahun terakhir |
-| MntFruits           | Jumlah pembelian buah pelanggan dalam 2 tahun terakhir |
-| MntMeatProducts     | Jumlah pembelian daging pelanggan dalam 2 tahun terakhir |
-| MntFishProducts     | Jumlah pembelian ikan pelanggan dalam 2 tahun terakhir |
-| MntSweetProducts    | Jumlah pembelian permen pelanggan dalam 2 tahun terakhir |
-| MntGoldProds        | Jumlah pembelian emas pelanggan dalam 2 tahun terakhir |
-| NumDealsPurchases   | Jumlah pembelian dengan diskon                       |
-| AcceptedCmp1        | 1 jika pelanggan menerima tawaran dalam kampanye pertama, 0 sebaliknya |
-| AcceptedCmp2        | 1 jika pelanggan menerima tawaran dalam kampanye kedua, 0 sebaliknya |
-| AcceptedCmp3        | 1 jika pelanggan menerima tawaran dalam kampanye ketiga, 0 sebaliknya |
-| AcceptedCmp4        | 1 jika pelanggan menerima tawaran dalam kampanye keempat, 0 sebaliknya |
-| AcceptedCmp5        | 1 jika pelanggan menerima tawaran dalam kampanye kelima, 0 sebaliknya |
-| Response            | 1 jika pelanggan menerima tawaran dalam kampanye terakhir, 0 sebaliknya |
-| NumWebPurchases     | Jumlah pembelian melalui situs web perusahaan        |
-| NumCatalogPurchases | Jumlah pembelian menggunakan katalog                 |
-| NumStorePurchases   | Jumlah pembelian langsung di toko                   |
-| NumWebVisitsMonth   | Jumlah kunjungan ke website perusahaan dalam bulan terakhir |
+| Column                | Description                                         |
+|-----------------------|-----------------------------------------------------|
+| ID                    | Unique customer ID                                  |
+| Year_Birth            | Customer's year of birth                            |
+| Education             | Customer's education level                          |
+| Marital_Status        | Customer's marital status                           |
+| Income                | Customer household's annual income                  |
+| Kidhome               | Number of children in the customer's household      |
+| Teenhome              | Number of teenagers in the customer's household     |
+| Dt_Customer           | Customer's registration date with the company       |
+| Recency               | Number of days since the customer's last purchase   |
+| Complain              | Customer's complaint activity in the last 2 years (Y/N) |
+| MntWines              | Total wine purchases by the customer in the last 2 years |
+| MntFruits             | Total fruit purchases by the customer in the last 2 years |
+| MntMeatProducts       | Total meat purchases by the customer in the last 2 years |
+| MntFishProducts       | Total fish purchases by the customer in the last 2 years |
+| MntSweetProducts      | Total candy purchases by the customer in the last 2 years |
+| MntGoldProds          | Total gold purchases by the customer in the last 2 years |
+| NumDealsPurchases     | Number of discounted purchases                      |
+| AcceptedCmp1          | 1 if the customer accepted an offer in campaign 1, 0 otherwise |
+| AcceptedCmp2          | 1 if the customer accepted an offer in campaign 2, 0 otherwise |
+| AcceptedCmp3          | 1 if the customer accepted an offer in campaign 3, 0 otherwise |
+| AcceptedCmp4          | 1 if the customer accepted an offer in campaign 4, 0 otherwise |
+| AcceptedCmp5          | 1 if the customer accepted an offer in campaign 5, 0 otherwise |
+| Response              | 1 if the customer accepted an offer in the last campaign, 0 otherwise |
+| NumWebPurchases       | Number of purchases made through the company website |
+| NumCatalogPurchases   | Number of purchases made using the catalog          |
+| NumStorePurchases     | Number of in-store purchases                        |
+| NumWebVisitsMonth     | Number of website visits in the last month          |
+
+---  
+
+📈 Let’s analyze and unlock insights! 💡
